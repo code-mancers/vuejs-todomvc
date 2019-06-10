@@ -1,0 +1,11 @@
+{
+  "name": "todomvc",
+  "version": "1.0.0",
+  "description": "The TodoMVC written in VueJS by Evan You.",
+  "main": "app.js",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}
