@@ -1,10 +1,10 @@
-describe('TODOMVC_ADD_TODO', function() {
+describe('TODOMVC_ADD', function() {
 
  it('adds_three_todo_entries', function() {
 
     cy.viewport(1440, 763)
  
-    cy.visit('http://localhost:8080/')
+    cy.visit('/')
  
     cy.get('body > .todoapp > .header > .new-todo').click()
  
